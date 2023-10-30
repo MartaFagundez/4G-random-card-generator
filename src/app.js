@@ -9,12 +9,12 @@ const suits = ["club", "spade", "diamond", "heart"];
 const numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"];
 
 const card = document.getElementById("card");
-const btnGenerate = document.getElementById("btnGenerate");
+const buttonnGenerate = document.getElementById("btnGenerate");
 
 window.onload = generateCard;
 
 // =================== LISTENERS ===================== //
-btnGenerate.addEventListener("click", generateCard);
+buttonGenerate.addEventListener("click", generateCard);
 
 // =================== FUNCTIONS ===================== //
 function generateCard() {
